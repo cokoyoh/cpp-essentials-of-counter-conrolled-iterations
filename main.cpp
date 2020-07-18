@@ -1,6 +1,11 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    for(unsigned int counter{1}; counter <= 10; counter++) {
+        cout << counter << " ";
+    }
+
+    cout << endl;
 }
