@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+project(essentials_of_counter_controll_iterations)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(essentials_of_counter_controll_iterations main.cpp)
